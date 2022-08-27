@@ -87,10 +87,10 @@ h1, h2, h3, h4, h5, h6 {
   width: 100%; }
   .content .left__img {
     background-image: url("img/myphoto1.jpg");
-    background-size: 250px;
+    background-size: 100%;
     margin: 80px;
-    width: 250px;
-    height: 250px;
+    width: 50%;
+    height: 60%;
     border-radius: 50%; }
   .content .intro__name {
     font-size: 20px;
@@ -132,11 +132,6 @@ h1, h2, h3, h4, h5, h6 {
           align-items: center;
   width: 100%;
   height: 400px; }
-  .content__right .left__img {
-    width: 250px;
-    height: 250px;
-    border: 1px solid black;
-    border-radius: 50%; }
   .content__right .right__fio .right__text1 {
     font-size: 60px;
     font-weight: 500; }
@@ -203,9 +198,9 @@ h1, h2, h3, h4, h5, h6 {
   background-color: #ebeae8; }
 
 .introRight__text {
+  width: 80%;
   font-family: 'Inter', sans-serif;
-  padding: 60px;
-  font-size: 20px;
+  font-size: 18px;
   letter-spacing: 2px;
   line-height: 25px; }
 
@@ -266,7 +261,7 @@ h1, h2, h3, h4, h5, h6 {
     -webkit-box-direction: normal;
         -ms-flex-direction: row;
             flex-direction: row;
-    width: 400px;
+    width: 90%;
     height: 4px;
     border-radius: 30px;
     margin-bottom: 20px; }
